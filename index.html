@@ -9,44 +9,47 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <script src="script.js" defer></script> 
+    <script src="script.js" defer></script>
     <title>My test page</title>
   </head>
   <body>
     <div class="container">
-        <div class="row ">
+      <div class="row">
         <div class="col-sm"></div>
 
-            <div class="col-sm ">
+        <div class="col-sm">
+          <h1>Weight Converter</h1>
+          <input
+            id="poundInput"
+            type="number"
+            class="mb-3"
+            placeholder="Enter pounds"
+          />
+          <div class="p-3 mb-2 bg-primary text-white rounded">
+            <span>Grams:</span>
+            <br />
+            <span id="gramSpan">0</span>
+          </div>
 
-                <h1>Weight Converter</h1>
-                <input id="poundInput" type="number" class="mb-3" placeholder="Enter pounds" />
-                <div class="p-3 mb-2 bg-primary text-white rounded">
-                  <span>Grams:</span>
-                </br>
-                <span  id="gramSpan">0</span>
-                </div>
-          
-                <div class="p-3 mb-2 bg-success text-white rounded">
-                  <span>KiloGrams:</span>
-                </br>
-                <span id="kilogramSpan">0</span>
-                </div>
-          
-                <div class="p-3 mb-2 bg-danger text-white rounded">
-                  <span>Ounces:</span>
-                </br>
-                <span  id="ounceSpan" >0</span>
-                </div>
+          <div class="p-3 mb-2 bg-success text-white rounded">
+            <span>KiloGrams:</span>
+            <br />
+            <span id="kilogramSpan">0</span>
+          </div>
 
-            </div>
-            <div class="col-sm"></div>
-            
-
-
+          <div class="p-3 mb-2 bg-danger text-white rounded">
+            <span>Ounces:</span>
+            <br />
+            <span id="ounceSpan">0</span>
+          </div>
         </div>
-      
-
+        <div class="col-sm">
+          <iframe
+            src="https://www.w3schools.com"
+            title="W3Schools Free Online Web Tutorials"
+          ></iframe>
+        </div>
+      </div>
     </div>
   </body>
 </html>
